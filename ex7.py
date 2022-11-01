@@ -17,7 +17,7 @@ g =gamma
 
 #Create mesh and define function space
 mesh=BoxMesh(Point(0,0,0), Point(L,W,W),10,3,3)
-V=VectorFunctionSpace(mesh, 'P', 1)
+V=VectorFunctionSpace(mesh, 'P', 1)规范热
 
 #Define boundary condition
 tol=1E-14
